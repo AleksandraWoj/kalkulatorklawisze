@@ -10,6 +10,15 @@ namespace kalkulator
     {
         static void Main(string[] args)
         {
+            while(true)
+            {
+                Console.WriteLine("0 wyjscie");
+                Console.WriteLine("1.Dodawanie");
+                Console.WriteLine("2.Odejmowanie");
+
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+
+            }
         }
     }
 }
